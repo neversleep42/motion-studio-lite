@@ -1,0 +1,7 @@
+{
+  "name":"motion-studio-lite","version":"0.1.0","private":true,"type":"module","license":"MIT",
+  "scripts":{"dev":"node scripts/start.mjs","build":"next build","start":"node scripts/start.mjs --production","typecheck":"tsc --noEmit","lint":"eslint src server tests scripts","test":"tsx --test tests/*.test.ts"},
+  "dependencies":{"@remotion/bundler":"4.0.534","@remotion/player":"4.0.534","@remotion/renderer":"4.0.534","esbuild":"0.25.12","express":"5.1.0","next":"16.4.0","react":"19.3.0","react-dom":"19.3.0","remotion":"4.0.534"},
+  "devDependencies":{"@types/express":"5.0.5","@types/node":"24.10.1","@types/react":"19.2.7","@types/react-dom":"19.2.3","eslint":"9.39.5","globals":"16.5.0","tsx":"4.20.6","typescript":"5.9.3","typescript-eslint":"8.71.1"},
+  "engines":{"node":">=22.12"}
+}

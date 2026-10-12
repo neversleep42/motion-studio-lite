@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.runtime/
+artifacts/
+.env*
+*.tsbuildinfo
+*.log
+next-env.d.ts
